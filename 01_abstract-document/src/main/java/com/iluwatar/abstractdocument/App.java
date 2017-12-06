@@ -22,11 +22,6 @@
  */
 package com.iluwatar.abstractdocument;
 
-import com.iluwatar.abstractdocument.domain.Car;
-import com.iluwatar.abstractdocument.domain.HasModel;
-import com.iluwatar.abstractdocument.domain.HasParts;
-import com.iluwatar.abstractdocument.domain.HasPrice;
-import com.iluwatar.abstractdocument.domain.HasType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

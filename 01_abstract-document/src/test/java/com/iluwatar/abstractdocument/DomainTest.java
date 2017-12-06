@@ -22,12 +22,6 @@
  */
 package com.iluwatar.abstractdocument;
 
-import com.iluwatar.abstractdocument.domain.Car;
-import com.iluwatar.abstractdocument.domain.HasModel;
-import com.iluwatar.abstractdocument.domain.HasParts;
-import com.iluwatar.abstractdocument.domain.HasPrice;
-import com.iluwatar.abstractdocument.domain.HasType;
-import com.iluwatar.abstractdocument.domain.Part;
 import org.junit.Test;
 
 import java.util.Arrays;
