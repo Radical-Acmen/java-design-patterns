@@ -20,19 +20,19 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.abstractdocument.domain;
+package com.iluwatar.abstractdocument;
 
-import java.util.Map;
-
-import com.iluwatar.abstractdocument.AbstractDocument;
+import java.util.stream.Stream;
 
 /**
- * Car entity
+ * HasParts trait for static access to 'parts' property
  */
-public class Car extends AbstractDocument implements HasModel, HasPrice, HasParts {
+public interface HasParts extends Document {
 
-  public Car(Map<String, Object> properties) {
-    super(properties);
+  String PROPERTY = "parts";
+
+  default Stream<Part> getParts() {
+    return children(PROPERTY, Part::new);
   }
 
 }
