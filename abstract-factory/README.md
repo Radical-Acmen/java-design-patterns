@@ -3,7 +3,6 @@ layout: pattern
 title: Abstract Factory
 folder: abstract-factory
 permalink: /patterns/abstract-factory/
-pumlid: PSZB3OD034NHLa81Czwd6sCC39gVxEUWT1_ssLmTtQLqgR5fM7sTmFGtaV6TZu8prd0r6HtQaMKqAZLk1XjT_E6qgPUZfyc0MdTgx0-8LuUn8ErFXdr98NypXxKyezKV
 categories: Creational
 tags:
  - Java
@@ -179,6 +178,10 @@ Use the Abstract Factory pattern when
 ## Consequences:
 
 *	Dependency injection in java hides the service class dependencies that can lead to runtime errors that would have been caught at compile time.
+
+## Presentations
+
+* [Abstract Factory Pattern](etc/presentation.html) 
 
 ## Real world examples
 
